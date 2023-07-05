@@ -2,7 +2,7 @@
 layout: post
 title:  "Proxmox installation"
 category : Proxmox
-tags :  Proxmox, Virtualization, Lab
+tags :  proxmox, virtualization, lab
 ---
 
 ## to do
