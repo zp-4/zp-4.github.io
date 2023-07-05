@@ -43,7 +43,7 @@ This *mini* [PC](https://www.amazon.fr/dp/B0BLY1DR42?ref_=cm_sw_r_mwn_dp_F0983Q5
 - Dual LAN
 - Triple HDMI
 
-![mini-pc.png](assets/img/mysetup/mini-pc.png)
+![mini-pc.png](/assets/img/mysetup/mini-pc.png)
 
 ## Operating System
 - Windows 11 Pro
