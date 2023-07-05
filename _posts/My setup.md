@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "My lab setup"
+category : all
+tags :  Proxmox, Virtualization, Lab
+---
+
 
 > Please note that I share my hardware configurations only for fun. You may have a completely different configuration either higher or lower.
 > For all coming labs, you need to adapt resource values (such as RAM, CPU..) according to your configuration.
@@ -16,12 +23,12 @@ This workstation is used for building my labs. It will be used as virutalization
 - Additional Dual NIC PCI Express + Chipset integrated NIC
 I did not list all components, only the most important ones.
 
-![[/assets/img/config.jpg]]
+![config.jpg](/assets/img/mysetup/config.jpg)
 
 ## Software/Virtualization
 For lab usage, I chose to go open source. I installed [Proxmox](https://www.proxmox.com/en/proxmox-ve).
 
-![[/assets/img/Proxmox.png]]
+![Proxmox.png](/assets/img/mysetup/Proxmox.png)
 
 Proxmox Virtual Environment (PVE) is a free, open-source virtualization solution that enables the deployment of virtualized systems with Linux KVM or on Linux LXC containers, networking, storage and plenty other capabilities on a single platform.
 
@@ -36,7 +43,7 @@ This *mini* [PC](https://www.amazon.fr/dp/B0BLY1DR42?ref_=cm_sw_r_mwn_dp_F0983Q5
 - Dual LAN
 - Triple HDMI
 
-![[assets/img/mini-pc.png]]
+![mini-pc.png](assets/img/mini-pc.png)
 
 ## Operating System
 - Windows 11 Pro
