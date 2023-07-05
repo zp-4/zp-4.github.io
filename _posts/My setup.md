@@ -16,12 +16,12 @@ This workstation is used for building my labs. It will be used as virutalization
 - Additional Dual NIC PCI Express + Chipset integrated NIC
 I did not list all components, only the most important ones.
 
-![[assets/img/config.jpg]]
+![[/assets/img/config.jpg]]
 
 ## Software/Virtualization
 For lab usage, I chose to go open source. I installed [Proxmox](https://www.proxmox.com/en/proxmox-ve).
 
-![[assets/img/Proxmox.png]]
+![[/assets/img/Proxmox.png]]
 
 Proxmox Virtual Environment (PVE) is a free, open-source virtualization solution that enables the deployment of virtualized systems with Linux KVM or on Linux LXC containers, networking, storage and plenty other capabilities on a single platform.
 
