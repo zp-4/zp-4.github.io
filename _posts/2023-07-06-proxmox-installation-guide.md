@@ -37,7 +37,7 @@ Restart your system and boot into the Proxmox VE installer.
 9. Confirm the installation settings and begin the installation process.
 
 > For more detailed instructions and considerations, you can refer to the official Proxmox VE documentation:
-> {: .prompt-tip }
+{: .prompt-tip }
 ```
 Proxmox VE Installation Guide: https://pve.proxmox.com/pve-docs/pve-admin-guide/installation/
 Proxmox VE Network Configuration: https://pve.proxmox.com/pve-docs/pve-admin-guide/network-configuration.html
