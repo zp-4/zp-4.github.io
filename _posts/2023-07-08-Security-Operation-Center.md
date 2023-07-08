@@ -2,7 +2,7 @@
 layout: post
 title:  "Security Operations Center (SOC): Strengthening Cybersecurity Defenses"
 category : SOC, BlueTeam
-tags :  SOC, BlueTeam
+tags :  soc, blueteam
 share: true 
 ---
 
