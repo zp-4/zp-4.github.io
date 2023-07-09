@@ -38,14 +38,14 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: zp-4
-  email: zp-4@gmail.com # change to your email address
+  email: zp4.learning@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/zpycho # change to your twitter homepage
     - https://github.com/zp-4 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/zied-namouchi-36384b11a
 
 google_site_verification: # fill in to your verification string
 
