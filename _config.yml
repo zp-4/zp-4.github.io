@@ -18,9 +18,9 @@ timezone: Europe/Paris
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: zp-4 # the main title
+title: zp-4 | infosec home lab # the main title
 
-tagline: InfoSec enthusiast # it will display as the sub-title
+tagline: zp-4 infosec home lab | InfoSec enthusiast # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   An InfoSec and SOC focused blog with blueteam content
