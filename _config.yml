@@ -23,7 +23,7 @@ title: zp-4 # the main title
 tagline: InfoSec enthusiast # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  An InfoSec focused blog.
+  An InfoSec and SOC focused blog with blueteam content
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://zp-4.github.io/"
@@ -47,8 +47,7 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/zied-namouchi-36384b11a
 
-google_site_verification: # fill in to your verification string
-
+google_site_verification:  google_meta_tag_verification
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
