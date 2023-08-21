@@ -8,7 +8,7 @@ share: false
 
 # A Step-by-Step Guide to AdGuard Home Installation for Enhanced Browsing Privacy
 
-## Introduction:
+## Introduction
 In a world saturated with online advertisements and privacy concerns, AdGuard stands out as a powerful solution for users seeking an ad-free and secure browsing experience. 
 This article provides a comprehensive guide to installing AdGuard, empowering users to take control of their online interactions and enhance their privacy.
 
