@@ -67,6 +67,7 @@ When exploring the available plugins for download and installation in OPNsense, 
 But no worries! A dedicated member of the community has taken the initiative to create an additional plugin repository, bringing in a selection of extra packages.
 
 However, before we proceed with adding the AdGuard Home plugin, there's a crucial step to complete – configuring and installing this community repository: enabling ssh connection to the OPNSense Firewall.
+
 Browse to: **System** > **Settings** > **Administration**
 ![ssh](/assets/img/adguard/ssh.png)
  
