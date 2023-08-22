@@ -62,7 +62,7 @@ Consequently, sporadic instances of advertisements or tracking elements slipping
 It's an imperfect system. Furthermore, the reverse scenario can unfold—legitimate portions of websites might be erroneously barred. Considering the prevalent dependence on third-party components by numerous contemporary websites, occasional troubleshooting and manual unblocking might prove indispensable.
 
 
-# Step 1: Adding the Community Repository to OPNsense
+## Step 1: Adding the Community Repository to OPNsense
 When exploring the available plugins for download and installation in OPNsense, you might notice that AdGuard Home isn't initially included. 
 But no worries! A dedicated member of the community has taken the initiative to create an additional plugin repository, bringing in a selection of extra packages.
 
@@ -78,6 +78,8 @@ In order to install the community repository, we'll pull down the repository con
 Then update local cache:
 > pkg update
 
+## Step 2: Installing AdGuard Home plugin
+
 Now back to OPNSense web interface: **System** > **Firmware** > **Plugins**
 ![plugin](/assets/img/adguard/adguard-install.png)
 
@@ -90,3 +92,15 @@ Then, browse to: **Services** > **Adguardhome** > **General** and enable the AdG
 - Check Register DHCP leases and Register DHCP static mappings, this will resolve hostnames for us in AdGuard Home.
 - Save the settings.
 {: .prompt-warning }
+
+
+## Step 3: Configuring AdGuard Home 
+
+We're now ready to configure AdGuard Home via the web interface.
+1. Navigate to http://*opnsense-ip*:3000/ in your browser and follow the wizard.
+2. Configure the administration interface to listen only to the IP of your router (the LAN portion of your network), the same one used to configure OPNsense firewall.
+  > In my case, I've chosen all interfaces, because I want devices in the same network as my router's WAN interface to be able to benefit from AdGuard Home protection. (As a reminder, I have a double NAT: Internet -> modem: 10.0.0.1/24 (LAN1) -> WAN(LAN1):10.0.0.220 -- opensense -- LAN: 192.168.0.1 -> LAN: 192.168.0.0/24
+{: .prompt-warning } 
+  The DNS server can listen on all interfaces and use the default port 53.
+3. In the next step, choose a user name and password.
+4. Once you've completed all these steps, you can log in to AdGuard Home using the credentials you've entered.
