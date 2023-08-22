@@ -78,3 +78,9 @@ In order to install the community repository, we'll pull down the repository con
 Then update local cache:
 > pkg update
 
+Now back to OPNSense web interface: **System** > **Firmware** > **Plugins**
+![plugin](/assets/img/adguard/adguard-install.png)
+
+Then, browse to: **Services** > **Adguardhome** > **General** and activate the AdGuard Home service
+![service](/assets/img/adguard/service-enable.png)
+
