@@ -16,7 +16,7 @@ This article provides a comprehensive guide to installing AdGuard, empowering us
 This firewall serves for now the purpose of safeguarding my lab, which constitutes the LAN portion of the network (from OPNSense Firewall perspective).
 Meanwhile, the WAN side of the OPNsense network continues to provide connectivity to my home network's devices via Wi-Fi, as I've yet to allocate funds for a reliable and reasonably priced access point.
 As part of my ongoing efforts to bolster privacy, I'm planning to implement AdGuard on both network sides to ensure a heightened level of online security.
-{: .prompt-warning }
+{: .prompt-tip }
 
 ## Unveiling AdGuard Home: Benefits and Functionality
 
@@ -81,6 +81,12 @@ Then update local cache:
 Now back to OPNSense web interface: **System** > **Firmware** > **Plugins**
 ![plugin](/assets/img/adguard/adguard-install.png)
 
-Then, browse to: **Services** > **Adguardhome** > **General** and activate the AdGuard Home service
+Then, browse to: **Services** > **Adguardhome** > **General** and enable the AdGuard Home service. You can also choose Adguard Home as primary DNS (For that it needs to run on port 53). 
 ![service](/assets/img/adguard/service-enable.png)
 
+> If you have a default DNS listening on port 53, such as my case with the Unbound DNS server, change its port to any of your choice; in my scenario, I opted for port 5353.
+- Navigate to **Services** > **Unbound DNS** > **General**
+- Change Listen Port to 5353
+- Check Register DHCP leases and Register DHCP static mappings, this will resolve hostnames for us in AdGuard Home.
+- Save the settings.
+{: .prompt-warning }
