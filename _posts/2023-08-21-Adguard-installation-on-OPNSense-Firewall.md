@@ -6,7 +6,6 @@ tags :  home lab, lab, dns, adguard, privacy, firewall, opnsense
 share: true 
 ---
 
-# A Step-by-Step Guide to AdGuard Home Installation for Enhanced Browsing Privacy
 
 ## Introduction
 In a world saturated with online advertisements and privacy concerns, AdGuard stands out as a powerful solution for users seeking an ad-free and secure browsing experience. 
