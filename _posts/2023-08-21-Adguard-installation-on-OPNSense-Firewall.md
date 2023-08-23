@@ -11,7 +11,7 @@ share: true
 In a world saturated with online advertisements and privacy concerns, AdGuard stands out as a powerful solution for users seeking an ad-free and secure browsing experience. 
 This article provides a comprehensive guide to installing AdGuard, empowering users to take control of their online interactions and enhance their privacy.
 
-> Within my current setup, a public IP is not in use. Rather, I've established a connection between mu ISP modem and a custom OPNsense firewall. 
+> Within my current setup, a public IP is not in use. Rather, I've established a connection between my ISP modem and a custom OPNsense firewall. 
 This firewall serves for now the purpose of safeguarding my lab, which constitutes the LAN portion of the network (from OPNSense Firewall perspective).
 Meanwhile, the WAN side of the OPNsense network continues to provide connectivity to my home network's devices via Wi-Fi, as I've yet to allocate funds for a reliable and reasonably priced access point.
 As part of my ongoing efforts to bolster privacy, I'm planning to implement AdGuard on both network sides to ensure a heightened level of online security.
