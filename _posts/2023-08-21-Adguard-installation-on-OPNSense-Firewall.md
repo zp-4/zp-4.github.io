@@ -99,8 +99,20 @@ Then, browse to: **Services** > **Adguardhome** > **General** and enable the AdG
 We're now ready to configure AdGuard Home via the web interface.
 1. Navigate to http://*opnsense-ip*:3000/ in your browser and follow the wizard.
 2. Configure the administration interface to listen only to the IP of your router (the LAN portion of your network), the same one used to configure OPNsense firewall.
-  > In my case, I've chosen all interfaces, because I want devices in the same network as my router's WAN interface to be able to benefit from AdGuard Home protection. (As a reminder, I have a double NAT: Internet -> modem: 10.0.0.1/24 (LAN1) -> WAN(LAN1):10.0.0.220 -- opensense -- LAN: 192.168.0.1 -> LAN: 192.168.0.0/24
+  > In my case, I've chosen all interfaces, because I want devices in the same network as my router's WAN interface to be able to benefit from AdGuard Home protection.
+  
+  **As a reminder, I have a double NAT: Internet -> modem: 10.0.0.1/24 (LAN1) -> WAN(LAN1):10.0.0.220 -- opensense -- LAN: 192.168.0.1 -> LAN: 192.168.0.0/24**
 {: .prompt-warning } 
-  The DNS server can listen on all interfaces and use the default port 53.
-3. In the next step, choose a user name and password.
-4. Once you've completed all these steps, you can log in to AdGuard Home using the credentials you've entered.
+  
+3.The DNS server can listen on all interfaces and use the default port 53.
+4. In the next step, choose a user name and password.
+5. Once you've completed all these steps, you can log in to AdGuard Home using the credentials you've entered.
+
+AND tadaaa! Now you have a working AdGuard Home instance.
+![web](/assets/img/adguard/web.png)
+
+## Optional: if unbound or any other DNS is used
+In AdGuard Home, navigate to Settings -> DNS Settings and scroll down to Upstream DNS Servers -> Private Reverse DNS Servers.
+
+Enter the Unbound server configured earlier in the OPNsense settings, opnsense-ip:5353
+
