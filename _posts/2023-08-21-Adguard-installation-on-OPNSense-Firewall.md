@@ -101,7 +101,7 @@ We're now ready to configure AdGuard Home via the web interface.
 2. Configure the administration interface to listen only to the IP of your router (the LAN portion of your network), the same one used to configure OPNsense firewall.
   > In my case, I've chosen all interfaces, because I want devices in the same network as my router's WAN interface to be able to benefit from AdGuard Home protection.
   
-  **As a reminder, I have a double NAT: Internet -> modem: 10.0.0.1/24 (LAN1) -> WAN(LAN1):10.0.0.220 -- opensense -- LAN: 192.168.0.1 -> LAN: 192.168.0.0/24**
+  > **As a reminder, I have a double NAT: Internet -> modem: 10.0.0.1/24 (LAN1) -> WAN(LAN1):10.0.0.220 -- opensense -- LAN: 192.168.0.1 -> LAN: 192.168.0.0/24**
 {: .prompt-warning } 
   
 3.The DNS server can listen on all interfaces and use the default port 53.
@@ -116,3 +116,19 @@ In AdGuard Home, navigate to Settings -> DNS Settings and scroll down to Upstrea
 
 Enter the Unbound server configured earlier in the OPNsense settings, opnsense-ip:5353
 
+## Step 4: Rule for opnsense WAN interface
+> This step is interesting in a specific case: using double NAT and no wifi access point connected to the OPNSense firewall/router.
+{: .prompt-warning }
+
+Now that AdGuard Home is active and protecting the portion of the LAN behind the firewall.
+We configure a network rule to allow equipment connected on the first LAN (LAN1 of the double NAT connecting this equipment to the modem) to benefit from AdGuard Home protection.
+
+In the OPNSense web interface, go to : **Firewall** -> **Rules** -> **WAN** and create a pass rule:
+
+Action: pass
+Protocol: TCP/UDP
+Source: \[NAT (NAT1) subnet\]: 10.0.0.1/24
+Destination: This firewall
+Port Dest: DNS(53)
+Description: Allow WAN for DNS
+![rule](/assets/img/adguard/rule.png)
