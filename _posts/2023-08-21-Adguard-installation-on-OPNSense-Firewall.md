@@ -139,5 +139,7 @@ In the OPNSense web interface, go to : **Firewall** -> **Rules** -> **WAN** and 
 
 ## Credits
 [AdGuard](https://adguard.com/en/blog/adguard-home-on-public-server.html)
+
 [https://0x2142.com/how-to-set-up-adguard-on-opnsense/](https://0x2142.com/how-to-set-up-adguard-on-opnsense/)
+
 [https://samuelsson.dev/install-adguard-home-on-an-opnsense-router/](https://samuelsson.dev/install-adguard-home-on-an-opnsense-router/)
