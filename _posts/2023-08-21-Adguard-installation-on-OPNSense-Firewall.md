@@ -113,7 +113,7 @@ We're now ready to configure AdGuard Home via the web interface.
 AND tadaaa! Now you have a working AdGuard Home instance.
 ![web](/assets/img/adguard/web.png)
 
-## Optional: if unbound or any other DNS is used
+### Optional: if unbound or any other DNS is used
 In AdGuard Home, navigate to Settings -> DNS Settings and scroll down to Upstream DNS Servers -> Private Reverse DNS Servers.
 
 Enter the Unbound server configured earlier in the OPNsense settings, opnsense-ip:5353
