@@ -59,8 +59,8 @@ Swiftly intercepting and blocking clients from connecting to such domains fortif
 
 However, the question of drawbacks arises. Indeed, they exist. Many DNS-level blockers rely on diverse website blocklists, which may not invariably be 100% precise. 
 Consequently, sporadic instances of advertisements or tracking elements slipping through are conceivable. 
-It's an imperfect system, of course, otherwise it would be too easy. 
 
+It's an imperfect system, of course, otherwise it would be too easy.
 Furthermore, the reverse scenario can unfold—legitimate portions of websites might be erroneously barred. Considering the prevalent dependence on third-party components by numerous contemporary websites, occasional troubleshooting and manual unblocking might prove indispensable.
 
 
@@ -127,10 +127,11 @@ We configure a network rule to allow equipment connected on the first LAN (LAN1 
 
 In the OPNSense web interface, go to : **Firewall** -> **Rules** -> **WAN** and create a pass rule:
 
-Action: pass
-Protocol: TCP/UDP
-Source: \[NAT (NAT1) subnet\]: 10.0.0.1/24
-Destination: This firewall
-Port Dest: DNS(53)
-Description: Allow WAN for DNS
+- Action: pass
+- Protocol: TCP/UDP
+- Source: \[NAT (NAT1) subnet\]: 10.0.0.1/24
+- Destination: This firewall
+- Port Dest: DNS(53)
+- Description: Allow WAN for DNS
+
 ![rule](/assets/img/adguard/rule.png)
