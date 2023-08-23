@@ -3,7 +3,7 @@ layout: post
 title:  "A Step-by-Step Guide to AdGuard Home Installation for Enhanced Browsing Privacy"
 category : DNS, Privacy, AdGuard Home
 tags :  home lab, lab, dns, adguard, privacy
-share: false 
+share: true 
 ---
 
 # A Step-by-Step Guide to AdGuard Home Installation for Enhanced Browsing Privacy
@@ -35,7 +35,7 @@ Regrettably, many websites employ automated scripts and code snippets, leaving u
 
 In yesteryears, specific browser extensions rose to prominence by autonomously intercepting and obstructing advertisement and tracking components. 
 While these extensions proved (and continue to prove) effective, website owners contested them, making the task of content blocking progressively more arduous. 
-Additionally, these extensions operate within the confines of your web browser, signifying that your computer establishes connections to the internet before the extension can intervene.
+Additionally, these extensions operate within the confines of your web browser.
 
 This is where a new breed of ad blockers, functioning at the network level, come into play. 
 One such solution is AdGuard Home, accompanied by counterparts like Pi-hole and NextDNS. 
@@ -51,7 +51,7 @@ For instance, if you were to visit a website housing embedded advertisements or 
 As a result, your browser can load the primary site (zp4-learning.com) without any endeavors to establish links with advertisement or tracking components.
 
 This methodology furnishes plenty of advantages, including heightened privacy and a decluttered browsing experience. 
-Moreover, by nipping much of this superfluous content in the bud, bandwidth consumption and associated data costs are curtailed. 
+Moreover, by removing much of this superfluous content, bandwidth consumption and associated data costs are curtailed. 
 Moreover, potential performance enhancements are on the horizon, given the lighter content load for each site.
 
 Security stands out as another significant advantage. A lot of DNS blocklists are continuously updated with the latest malevolent or suspicious domains.
@@ -59,7 +59,9 @@ Swiftly intercepting and blocking clients from connecting to such domains fortif
 
 However, the question of drawbacks arises. Indeed, they exist. Many DNS-level blockers rely on diverse website blocklists, which may not invariably be 100% precise. 
 Consequently, sporadic instances of advertisements or tracking elements slipping through are conceivable. 
-It's an imperfect system. Furthermore, the reverse scenario can unfold—legitimate portions of websites might be erroneously barred. Considering the prevalent dependence on third-party components by numerous contemporary websites, occasional troubleshooting and manual unblocking might prove indispensable.
+It's an imperfect system, of course, otherwise it would be too easy. 
+
+Furthermore, the reverse scenario can unfold—legitimate portions of websites might be erroneously barred. Considering the prevalent dependence on third-party components by numerous contemporary websites, occasional troubleshooting and manual unblocking might prove indispensable.
 
 
 ## Step 1: Adding the Community Repository to OPNsense
