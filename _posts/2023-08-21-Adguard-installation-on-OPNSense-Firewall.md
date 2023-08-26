@@ -104,7 +104,7 @@ We're now ready to configure AdGuard Home via the web interface.
 2. Configure the administration interface to listen only to the IP of your router (the LAN portion of your network), the same one used to configure OPNsense firewall.
   > In my case, I've chosen all interfaces, because I want devices in the same network as my router's WAN interface to be able to benefit from AdGuard Home protection.
   
-  > **As a reminder, I have a double NAT: Internet -> modem: 10.0.0.1/24 (LAN1) -> WAN(LAN1):10.0.0.220 -- opensense -- LAN: 192.168.0.1 -> LAN: 192.168.0.0/24**
+  > **As a reminder, I have a double NAT: Internet -> modem: 10.0.0.1/24 (LAN1) -> WAN(LAN1):10.0.0.225 -- opensense -- LAN: 192.168.0.1 -> LAN: 192.168.0.0/24**
 {: .prompt-warning } 
 
 ![wmyconf](/assets/img/adguard/myconf.png)
