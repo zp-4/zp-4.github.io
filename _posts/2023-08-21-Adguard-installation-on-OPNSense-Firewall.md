@@ -106,7 +106,9 @@ We're now ready to configure AdGuard Home via the web interface.
   
   > **As a reminder, I have a double NAT: Internet -> modem: 10.0.0.1/24 (LAN1) -> WAN(LAN1):10.0.0.220 -- opensense -- LAN: 192.168.0.1 -> LAN: 192.168.0.0/24**
 {: .prompt-warning } 
-  
+
+![wmyconf](/assets/img/adguard/myconf.png)
+
 3.The DNS server can listen on all interfaces and use the default port 53.
 4. In the next step, choose a user name and password.
 5. Once you've completed all these steps, you can log in to AdGuard Home using the credentials you've entered.
