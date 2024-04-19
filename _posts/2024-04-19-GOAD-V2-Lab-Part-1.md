@@ -16,4 +16,13 @@ Don't hesitate to send me your comments.
 {:.prompt-warning}
 
 #### Step 1: open a shell 
+
 ![Shell ](/assets/img/goadv2/pfsense/2024-04-19_10-36.png)
+
+#### Step 2: deactivate packet filter functionality
+
+To deactivate pf in pfSense, run this command 
+```bash
+pfctl -d
+```
+![Shell ](/assets/img/goadv2/pfsense/2024-04-18_18-03_1.png)
