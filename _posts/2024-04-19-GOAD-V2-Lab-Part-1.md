@@ -40,7 +40,7 @@ if you choose **Filter rule association**: *Add associated filter rule*, an asso
 
 ![Wan Rule](/assets/img/goadv2/pfsense/2024-04-18_18-02.png)
 
-I am not republishing all the steps because they are already well described by mayfly in his blog. I am just describing the parts which are either different from its configuration, or which I had to modify to adapt to my lab.
+> I am not republishing all the steps because they are already well described by mayfly in his blog. I am just describing the parts which are either different from its configuration, or which I had to modify to adapt to my lab.
 {: .prompt-warning }
 
 ##### Crédits:
