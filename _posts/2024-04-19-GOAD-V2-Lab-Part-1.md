@@ -34,7 +34,7 @@ Navigate to : **Firewall > NAT > Port Forward**
 ![NAT](/assets/img/goadv2/pfsense/2024-04-18_18-03.png)
 
 > The masked NAT IP corresponds to the firewall's LAN interface IP Address
-{: .prompt-note }
+{: .prompt-info }
 
 if you choose **Filter rule association**: *Add associated filter rule*, an associated WAN rule is created in **Firewall > rule > WAN**
 
