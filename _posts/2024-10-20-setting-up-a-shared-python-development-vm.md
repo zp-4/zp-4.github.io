@@ -4,6 +4,8 @@ title: Setting Up a Shared Python Development VM
 date: 2024-10-20 10:18 +0200
 categories: [Proxmox, Virtualization, Development]
 tags: [Proxmox, Virtual Machines, Development, Python, RDP]
+comments: true
+share: true
 ---
 
 # Comprehensive Guide: Setting Up a Shared Python Development VM (VDI) on Proxmox
