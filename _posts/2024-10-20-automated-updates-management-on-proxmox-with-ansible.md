@@ -96,6 +96,7 @@ Keeping your VMs and CTs up-to-date is crucial for maintaining a secure and effi
    nano ~/update_nodes.yml
    ```
    Add the following content:
+   
    ```yaml
    ---
    - hosts: proxmox_nodes
@@ -124,7 +125,7 @@ Keeping your VMs and CTs up-to-date is crucial for maintaining a secure and effi
          when: reboot_required_file.stat.exists
    ```
 
-3. **Test the Playbook:**
+4. **Test the Playbook:**
    ```bash
    ansible-playbook ~/update_nodes.yml
    ```
