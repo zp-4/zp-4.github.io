@@ -4,6 +4,8 @@ title: Migrating Your Proxmox Virtual Machines
 categories: [Proxmox, Virtualization, Migration]
 tags: [Proxmox, Virtual Machines, Backup, Storage]
 date: 2024-10-20 09:29 +0200
+comments: true
+share: true
 ---
 
 # Comprehensive Guide to Migrating Proxmox VMs to New Disks
