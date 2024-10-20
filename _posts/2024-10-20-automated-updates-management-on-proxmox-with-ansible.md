@@ -95,7 +95,7 @@ Keeping your VMs and CTs up-to-date is crucial for maintaining a secure and effi
    ```bash
    nano ~/update_nodes.yml
    ```
-   Add the following content:
+   Add the following content for upgrading debian-based systems for example:
    
    ```yaml
    ---
