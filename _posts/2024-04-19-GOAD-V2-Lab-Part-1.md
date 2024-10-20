@@ -4,6 +4,7 @@ title: GOAD V2 Lab - Part 1 - Pfsense install
 category: [Goad V2, Pfsense, Proxmox]
 tags: [homelab, firewall, pfsense, proxmox, goadv2, blueteam]
 share: true
+comments: true
 ---
 
 ## Introduction
