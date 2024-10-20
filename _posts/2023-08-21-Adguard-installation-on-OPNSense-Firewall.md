@@ -3,7 +3,8 @@ layout: post
 title:  "A Step-by-Step Guide to AdGuard Home Installation for Enhanced Browsing Privacy"
 category : [DNS, Privacy, AdGuard Home]
 tags :  [homelab, lab, dns, adguard, privacy, firewall, opnsense]
-share: true 
+share: true
+comments: true
 ---
 
 
