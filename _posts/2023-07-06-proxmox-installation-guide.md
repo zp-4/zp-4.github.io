@@ -4,6 +4,7 @@ title:  "Proxmox installation guide"
 category : [Virtualization, Proxmox]
 tags :  [lab, virtualization, proxmox]
 comments: true
+share: true
 ---
 
 > To be enriched with screenshots for every step.
