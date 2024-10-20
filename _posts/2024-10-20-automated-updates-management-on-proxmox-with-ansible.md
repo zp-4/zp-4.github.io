@@ -4,6 +4,7 @@ title: Automated Updates Management on Proxmox with Ansible
 date: 2024-10-20 10:40 +0200
 categories: [Proxmox, Virtualization, Automation]
 tags: [Proxmox, Virtual Machines, Update, Upgrade, Automation, Ansible, Playbook]
+comments: true
 ---
 
 # Automated Updates Management on Proxmox with Ansible
@@ -95,7 +96,8 @@ Keeping your VMs and CTs up-to-date is crucial for maintaining a secure and effi
    ```bash
    nano ~/update_nodes.yml
    ```
-   Add the following content:
+   Add the following content for upgrading debian-based systems for example:
+   
    ```yaml
    ---
    - hosts: proxmox_nodes
@@ -124,7 +126,7 @@ Keeping your VMs and CTs up-to-date is crucial for maintaining a secure and effi
          when: reboot_required_file.stat.exists
    ```
 
-3. **Test the Playbook:**
+4. **Test the Playbook:**
    ```bash
    ansible-playbook ~/update_nodes.yml
    ```
