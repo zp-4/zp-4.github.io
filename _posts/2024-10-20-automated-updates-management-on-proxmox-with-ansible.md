@@ -4,6 +4,7 @@ title: Automated Updates Management on Proxmox with Ansible
 date: 2024-10-20 10:40 +0200
 categories: [Proxmox, Virtualization, Automation]
 tags: [Proxmox, Virtual Machines, Update, Upgrade, Automation, Ansible, Playbook]
+comments: true
 ---
 
 # Automated Updates Management on Proxmox with Ansible
